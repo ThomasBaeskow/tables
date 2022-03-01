@@ -1,0 +1,48 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+
+    table,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        /* border-radius: 10px; */
+        /* border-style: dotted; */
+        padding: 15px;
+        /* border-spacing: 10px; */
+    }
+
+    tr:nth-child(odd) {
+        background-color: grey;
+    }
+    td:nth-child(even), th:nth-child(even) {
+        background-color: aqua;
+    }
+
+    tr:hover {
+        background-color: red;
+    }
+    
+
+    table {
+        /* background-color: red; */
+        width: 100%;
+    }
+    
+    th, td {
+        /* background-color: aqua; */
+       
+    }
+    
+    .contact {
+        width: 30%;
+    }
+
+    .bla {
+        height: 200px;
+    }
+
+    /* th {
+        text-align: left;
+    } */
+    
